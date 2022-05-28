@@ -1,0 +1,31 @@
+html_css.txt
+html_css
+
+<div class="hey">sup</div>
+
+<div class="hey"> - opening tag
+</div> - closing tag
+div - element
+class - attribute
+hey- value
+sup - content
+
+HTML Structure:-
+
+<html>
+ <head>
+   stuff/configuration
+ </head>
+ <body>
+  stuff/configuration
+ </body>
+</html>
+
+
+CSS Structure:-
+
+Ruleset 
+.hey {
+   background:blue;
+   font_size:1em;
+}
