@@ -43,6 +43,18 @@ blue - value
 VS Code
 -open terminal from view bar
 -open relevant directory
-- code . OR click on open folder to open the directory to write code
+-write - code . OR click on open folder to open the directory to write code, here . means period
 -create new .html file
 - ! + enter - it gives html body to write code
+
+intsall live server - to see website
+install live sass compiler - to easy code on css
+- create .scss file and write css code
+body{
+    background: crimson;
+}
+like this in it
+- in .html file, after <title> or before closing tag </head> write - link + enter
+- under href tag write - "css/main.css" , it will add colour
+- in body tag, write - .wrapper, it will automatically give the html code for
+(<div class= 'wrapper'> </div>) 
