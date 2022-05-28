@@ -10,6 +10,8 @@ class - attribute
 hey- value
 sup - content
 
+----------------------
+
 HTML Structure:-
 
 <html>
@@ -21,6 +23,7 @@ HTML Structure:-
  </body>
 </html>
 
+-------------------------
 
 CSS Structure:-
 
@@ -29,3 +32,17 @@ Ruleset
    background:blue;
    font_size:1em;
 }
+
+hey - selector
+background:blue; - declaration, we can hav many declarations
+background - property
+blue - value
+
+--------------------
+
+VS Code
+-open terminal from view bar
+-open relevant directory
+- code . OR click on open folder to open the directory to write code
+-create new .html file
+- ! + enter - it gives html body to write code
