@@ -39,6 +39,8 @@ background - property
 blue - value
 
 --------------------
+g
+--------------------
 
 VS Code
 -open terminal from view bar
@@ -57,4 +59,5 @@ like this in it
 - in .html file, after <title> or before closing tag </head> write - link + enter
 - under href tag write - "css/main.css" , it will add colour
 - in body tag, write - .wrapper, it will automatically give the html code for
-(<div class= 'wrapper'> </div>) 
+(<div class= 'wrapper'> </div>)
+
