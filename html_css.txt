@@ -1,3 +1,22 @@
+What Is HTML?
+
+-HTML or HyperText Markup Language is used for creating web applications and websites.
+-Consists of tags surrounding content. For Example: <p>Welcome to Simplilearn</p>
+-HTML cannot be used in a CSS file.
+-It is used to build the structure of the web pages.
+
+What Is CSS?
+-Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
+-CSS is designed to enable the separation of document content from document presentation, including elements such as font, layout, and colors.
+-The style definitions are usually saved in external .css files.
+-CSS is a style sheet language responsible for the presentation of documents written in a markup language.
+-Consists of selectors succeeded by a declaration mark. For Example:
+header{
+background-color: green;
+-CSS can be used in an HTML file.
+-It is used to make web pages more presentable.
+
+
 html_css.txt
 html_css
 
@@ -14,15 +33,19 @@ sup - content
 
 HTML Structure:-
 
+<!DOCTYPE HTML>
 <html>
  <head>
-   stuff/configuration
+   stuff/configuration,Information abt page (links, meta, title)
+   <title>doc<!title>
  </head>
  <body>
-  stuff/configuration
+  stuff/configuration, what will be displayed on the page
  </body>
 </html>
 
+-html is white space collasping
+-comment out <!----> or use ctrl+/
 -------------------------
 
 CSS Structure:-
@@ -47,7 +70,7 @@ VS Code
 -open relevant directory
 -write - code . OR click on open folder to open the directory to write code, here . means period
 -create new .html file
-- ! + enter - it gives html body to write code
+- ! + enter - it gives html body to write code bcoz of EMMET extension
 
 intsall live server - to see website
 install live sass compiler - to easy code on css
