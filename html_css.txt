@@ -46,6 +46,15 @@ HTML Structure:-
 
 -html is white space collasping
 -comment out <!----> or use ctrl+/
+
+-<h2>2. Trading platforms</h2>
+ <a href="https://www.binance.com/en"><img src="/binance.jpg" alt="binance" height="50px" width="100px"></a>
+ <a> tag/element consists of leading url and source as image or para or line
+ 
+- <h1 id="top"></h1>
+ <a href="#top">Back to the top</a>
+ this if for back to the top of page
+ 
 -------------------------
 
 CSS Structure:-
