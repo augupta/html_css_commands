@@ -55,6 +55,8 @@ HTML Structure:-
  <a href="#top">Back to the top</a>
  this if for back to the top of page
  
+ * use <span> element to prevent line break
+ 
 -------------------------
 
 CSS Structure:-
