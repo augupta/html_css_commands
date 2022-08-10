@@ -154,8 +154,44 @@ Total element width = width + left padding + right padding + left border + right
     * color: blue;
  
  *Text Alignment
-    *
+    *text-align: right/center/justify
+    *text-align-last: left
+*The direction and unicode-bidi properties can be used to change the text direction of an element:
+    *p {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
 
+
+*vertical-align: baseline/text-top/text-bottom/sub/super;
+
+
+
+
+*Icons
+
+
+*links
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
 
 --------------------
 g
