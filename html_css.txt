@@ -193,6 +193,20 @@ a:active {
   color: blue;
 } 
 
+**table border
+<style>
+table, th, td{
+  width: 100%;
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  height: 50px;
+  vertical-align: bottom;
+}
+</style>
+
+
+
 --------------------
 g
 --------------------
