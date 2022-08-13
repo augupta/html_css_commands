@@ -192,6 +192,11 @@ a:hover {
 a:active {
   color: blue;
 } 
+button:hover{
+    background-color: blue;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
 
 **table border
 <style>
@@ -205,8 +210,12 @@ table, th, td{
 }
 </style>
 
+* A responsive table will display a horizontal scroll bar if the screen is too small to display the full content. Resize the browser window to see the effect:
+To create a responsive table, add a container element (like div) with overflow-x:auto around the table element:
+<div style="overflow-x: auto;">
 
 
+**display: inline/outline/none;  to display in row/column/hide, usually used with links
 --------------------
 g
 --------------------
