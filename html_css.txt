@@ -210,12 +210,22 @@ table, th, td{
 }
 </style>
 
-* A responsive table will display a horizontal scroll bar if the screen is too small to display the full content. Resize the browser window to see the effect:
+**The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+The overflow property has the following values:
+
+    visible - Default. The overflow is not clipped. The content renders outside the element's box
+    hidden - The overflow is clipped, and the rest of the content will be invisible
+    scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+    auto - Similar to scroll, but it adds scrollbars only when necessary
+
+
+A responsive table will display a horizontal scroll bar if the screen is too small to display the full content. Resize the browser window to see the effect:
 To create a responsive table, add a container element (like div) with overflow-x:auto around the table element:
 <div style="overflow-x: auto;">
 
 
-**display: inline/outline/none;  to display in row/column/hide, usually used with links
+**display: inline/outline/none/table;  to display in row/column/hide/table, usually used with links
 
 **The position Property
 
@@ -264,6 +274,30 @@ img {
   height: 100px;
 }
 
+div {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+** float
+
+    left - The element floats to the left of its container
+    right - The element floats to the right of its container
+    none - The element does not float (will be displayed just where it occurs in the text). This is default
+    inherit - The element inherits the float value of its parent
+
+img {
+  float: left/right/none/inherit;
+}
+
+**clear
+
+When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property.
+The clear property specifies what should happen with the element that is next to a floating element.
+
+img {
+  float: left/right/none/both/inherit;
+}
 
 --------------------
 g
