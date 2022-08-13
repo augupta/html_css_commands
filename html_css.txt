@@ -216,6 +216,55 @@ To create a responsive table, add a container element (like div) with overflow-x
 
 
 **display: inline/outline/none;  to display in row/column/hide, usually used with links
+
+**The position Property
+
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+    static
+    relative
+    fixed
+    absolute
+    sticky
+
+
+*div.relative/class {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+}
+
+*div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+** z-index - specifies the stack order
+img {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  z-index: -1;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2; /* green box will be above black box */
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+
+
 --------------------
 g
 --------------------
