@@ -357,6 +357,39 @@ grid-template-areas 	Specifies how to display columns and rows, using named grid
 grid-template-columns 	Specifies the size of the columns, and how many columns in a grid layout
 grid-template-rows 	Specifies the size of the rows in a grid layout
 row-gap 	Specifies the gap between the grid rows
+
+**inline
+display: inline/inline-block/block
+
+**Adjacent Sibling Selector
+
+The + selector is used to select an element that is directly after another specific element.
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>   -- this one only
+<p>Paragraph 4. After a div.</p>
+
+div + p {
+  background-color: yellow;
+}
+
+**General Sibling Selector
+
+The general sibling selector (~) selects all elements that are next siblings of a specified element.
+
+div ~ p {
+  background-color: yellow;
+}
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>  - this
+<p>Paragraph 4. After a div.</p>  - and this
 --------------------
 g
 --------------------
