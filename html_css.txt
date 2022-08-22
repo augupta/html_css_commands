@@ -390,6 +390,19 @@ div ~ p {
 
 <p>Paragraph 3. After a div.</p>  - this
 <p>Paragraph 4. After a div.</p>  - and this
+
+**CSS Pseudo-classes
+*Match all <i> elements in all first child <p> elements
+p:first-child i {
+  color: blue;
+}
+
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+
+*The :first-child pseudo-class matches a specified element that is the first child of another element.
+
+
 --------------------
 g
 --------------------
