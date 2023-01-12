@@ -5,6 +5,162 @@ What Is HTML?
 -HTML cannot be used in a CSS file.
 -It is used to build the structure of the web pages.
 
+
+* Form
+
+<!DOCTYPE html>
+<html>
+    <head>    
+        <body>    
+            <form action="/registration" method="post">
+                <fieldset>
+                    <legend>Personal info</legend>
+                    <label for="name">name</label>
+                    <input id="name" type="text" name="name" placeholder="full name">
+                    <br>
+                    
+                    <label>email
+                    <input required type="email" name="email" value="email@email.com">
+                    </label>
+                    <br>
+                    
+                    <label>phone no.
+                    <input required type="tel" name="phoneno." pattern="" placeholder="123-45-678">
+                    </label>
+                    <br>
+                    
+                    <label for="password">password</label>
+                    <input id="password" type="password" name="password" placeholder="password">
+                    <br>
+                    
+                    <label for="birthday">birthday</label>
+                    <input id="birthday" type="date" name="birthday" placeholder="dd-mm-yyyy">
+                    <br>
+                    
+                    <label for="num">age</label>
+                    <input id="num" type="number" name="age" min="18">
+                    <br>
+                </fieldset>
+                <!--to categorize labels use <fieldset> and for name use <legend>-->
+                    
+                <br>
+                <br>
+
+                <label for="srch">search</label>
+                <input id="srch" type="search" name="search">
+                <br>
+
+                
+
+                <label for="col">fav color</label>
+                <input id="col" type="color" name="fav color" placeholder="orange">
+                <br>
+
+                <label for="fitness">fitness level</label>
+                <input id="fitness" type="range" name="fitness level" min="0" max="10">
+                <br>
+
+                <label for="file">select a file</label>
+                <input id="file" type="file" name="select a file">
+                <br>
+
+                <label for="pic">mypic</label>
+                <input id="pic" type="file" name="mypic" accept="image/*" multiple="">
+                <br>
+
+                <label for="image">jpg/png image</label>
+                <input id="image" type="file" name="jpg/png image" accept="image/png, image/jpg" multiple="">
+                <br>
+
+                <label for="checkbox" class="checkbox">Remember me</label>
+                <input id="checkbox" type="checkbox" name="Remember me"
+                value="is checked">
+                <!--write checked for pre-checked-->
+                <br>
+
+                <label for="terms" class="checkbox">Terms & Agreement</label>
+                <input id="terms" type="checkbox" name="Terms & Agreement"
+                value="terms accepted" checked>
+                <br>
+
+                <label for="child" class="radio">Under 18</label>
+                <input id="child" type="radio" name="age">
+                <br>
+
+                <label for="adult" class="radio">18-65</label>
+                <input id="adult" type="radio" name="age">
+                <br>
+
+                <label for="old" class="radio">65+</label>
+                <input id="old" type="radio" name="age">
+                <br>
+                <!--only one of many type="radio" boxes can only be checked-->
+
+                <label for="msg">comment</label>
+                <textarea id="msg" name="comment" rows="2" cols="30">
+                </textarea>
+                <br>
+
+                <!-- <caption>country</caption> -->
+                <label for="country">country</label>
+                <select name="country" id="country">
+                    <optgroup label="asia">
+                        <option value="india">ind</option>
+                        <option value="japan">jpn</option>
+                    </optgroup>
+
+                    <optgroup label="europe">
+                        <option value="united kingdom">uk</option>
+                        <option value="germany">ger</option>
+                    </optgroup>
+
+                    <optgroup label="america">
+                        <option value="united states">us</option>
+                        <option value="canada">can</option>
+                    </optgroup>
+                </select>
+                <br>
+
+                
+                <label for="queues">queues</label>
+                <input id="queues" name="queues" list="queues name">
+                <datalist id="queues name">
+                    <option>initial</option>
+                    <option>follow-uos</option>
+                    <option>acc change</option>
+                </datalist>
+                
+
+                <br>
+                <br>
+                <button type="submit">sign in</button>
+                <input type="submit" name="" id="" value="log in">
+
+
+
+                <!-- 1.write name, email and password
+                2. write these 3 in label tag separately 
+                3.use tag 'input' with 'type' attribute so to make type of input clear 
+                4.to connect these labels with their input 
+                  a. write all under 'label' element as shown in email
+                  b. or use 'for' in 'label' and 'id' in 'input' containing same name as
+                     shown in name
+                5. use 'button' element to submit OR use 'input' element to submit
+                6. element 'input' must comes with 'name' attribute
+                7. to make any field cumpulsory add 'required' in 'input' element
+                8. use attributes 'placeholder' and 'value' for suggestion in box-->
+
+            </form>
+
+        </body>
+    </head>
+</html>
+
+
+
+
+
+
 What Is CSS?
 -Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
 -CSS is designed to enable the separation of document content from document presentation, including elements such as font, layout, and colors.
